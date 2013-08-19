@@ -58,7 +58,7 @@ class GetStockSymbols(object):
 
             currently these are just NASDAQ, NYSE, and AMEX
 
-            @rtype: ListType
+            @rtype: TupleType
         '''
         return tuple(GetStockSymbols.call_endpoint(name) for name in GetStockSymbols.ALL_EXCHANGES)
 
