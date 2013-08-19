@@ -5,7 +5,6 @@ import urllib2
 from urllib2 import URLError
 from collections import namedtuple
 import logging
-import json
 import StringIO
 import csv
 
